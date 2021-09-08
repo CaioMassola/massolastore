@@ -21,7 +21,7 @@ export default class AuxProductsController {
 
     }
 
-    async getProduct({response, request, params}) {
+    async getProduct({response, params}) {
         try {
             let read;
             if(params.code){
